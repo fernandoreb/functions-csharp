@@ -21,7 +21,7 @@ namespace My.Function
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            string responseMessage = "Valor da soma: " + await getSum();
+            string responseMessage = "Valor da soma eh: " + await getSum();
 
             return new OkObjectResult(responseMessage);
         }
